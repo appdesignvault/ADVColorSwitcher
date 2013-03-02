@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354C437015679F4A00269752 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C436F15679F4A00269752 /* Cocoa.framework */; };
+		354C437A15679F4A00269752 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 354C437815679F4A00269752 /* InfoPlist.strings */; };
+		354C437C15679F4A00269752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C437B15679F4A00269752 /* main.m */; };
+		354C438015679F4A00269752 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 354C437E15679F4A00269752 /* Credits.rtf */; };
+		354C438315679F4A00269752 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C438215679F4A00269752 /* AppDelegate.m */; };
+		354C438615679F4A00269752 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354C438415679F4A00269752 /* MainMenu.xib */; };
+		354C43951567A4DE00269752 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C43941567A4DE00269752 /* CoreFoundation.framework */; };
+		354C43981567A4E600269752 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C43971567A4E600269752 /* CoreMedia.framework */; };
+		354C454D1567BFCD00269752 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C454C1567BFCD00269752 /* QuartzCore.framework */; };
+		354C454F1567C10F00269752 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C454E1567C10F00269752 /* ApplicationServices.framework */; };
+		354C45521567C38800269752 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354C45511567C38800269752 /* Quartz.framework */; };
+		354C455A1567F08100269752 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 354C45591567F08100269752 /* appicon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		354C436B15679F4A00269752 /* colorswitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorswitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		354C436F15679F4A00269752 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		354C437215679F4A00269752 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		354C437315679F4A00269752 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		354C437415679F4A00269752 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		354C437715679F4A00269752 /* colorswitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colorswitcher-Info.plist"; sourceTree = "<group>"; };
+		354C437915679F4A00269752 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		354C437B15679F4A00269752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		354C437D15679F4A00269752 /* colorswitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colorswitcher-Prefix.pch"; sourceTree = "<group>"; };
+		354C437F15679F4A00269752 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		354C438115679F4A00269752 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		354C438215679F4A00269752 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		354C438515679F4A00269752 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		354C43941567A4DE00269752 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		354C43971567A4E600269752 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		354C454C1567BFCD00269752 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		354C454E1567C10F00269752 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		354C45511567C38800269752 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		354C45591567F08100269752 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		354C436815679F4A00269752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354C45521567C38800269752 /* Quartz.framework in Frameworks */,
+				354C454F1567C10F00269752 /* ApplicationServices.framework in Frameworks */,
+				354C454D1567BFCD00269752 /* QuartzCore.framework in Frameworks */,
+				354C43981567A4E600269752 /* CoreMedia.framework in Frameworks */,
+				354C43951567A4DE00269752 /* CoreFoundation.framework in Frameworks */,
+				354C437015679F4A00269752 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354C436015679F4A00269752 = {
+			isa = PBXGroup;
+			children = (
+				354C45591567F08100269752 /* appicon.png */,
+				354C45511567C38800269752 /* Quartz.framework */,
+				354C437515679F4A00269752 /* colorswitcher */,
+				354C436E15679F4A00269752 /* Frameworks */,
+				354C436C15679F4A00269752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		354C436C15679F4A00269752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				354C436B15679F4A00269752 /* colorswitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354C436E15679F4A00269752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				354C454E1567C10F00269752 /* ApplicationServices.framework */,
+				354C454C1567BFCD00269752 /* QuartzCore.framework */,
+				354C43971567A4E600269752 /* CoreMedia.framework */,
+				354C43941567A4DE00269752 /* CoreFoundation.framework */,
+				354C436F15679F4A00269752 /* Cocoa.framework */,
+				354C437115679F4A00269752 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		354C437115679F4A00269752 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				354C437215679F4A00269752 /* AppKit.framework */,
+				354C437315679F4A00269752 /* CoreData.framework */,
+				354C437415679F4A00269752 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		354C437515679F4A00269752 /* colorswitcher */ = {
+			isa = PBXGroup;
+			children = (
+				354C438115679F4A00269752 /* AppDelegate.h */,
+				354C438215679F4A00269752 /* AppDelegate.m */,
+				354C438415679F4A00269752 /* MainMenu.xib */,
+				354C437615679F4A00269752 /* Supporting Files */,
+			);
+			path = colorswitcher;
+			sourceTree = "<group>";
+		};
+		354C437615679F4A00269752 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				354C437715679F4A00269752 /* colorswitcher-Info.plist */,
+				354C437815679F4A00269752 /* InfoPlist.strings */,
+				354C437B15679F4A00269752 /* main.m */,
+				354C437D15679F4A00269752 /* colorswitcher-Prefix.pch */,
+				354C437E15679F4A00269752 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		354C436A15679F4A00269752 /* colorswitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354C438915679F4A00269752 /* Build configuration list for PBXNativeTarget "colorswitcher" */;
+			buildPhases = (
+				354C436715679F4A00269752 /* Sources */,
+				354C436815679F4A00269752 /* Frameworks */,
+				354C436915679F4A00269752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colorswitcher;
+			productName = colorswitcher;
+			productReference = 354C436B15679F4A00269752 /* colorswitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354C436215679F4A00269752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Universitatea Babeș-Bolyai";
+			};
+			buildConfigurationList = 354C436515679F4A00269752 /* Build configuration list for PBXProject "colorswitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 354C436015679F4A00269752;
+			productRefGroup = 354C436C15679F4A00269752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				354C436A15679F4A00269752 /* colorswitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		354C436915679F4A00269752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354C437A15679F4A00269752 /* InfoPlist.strings in Resources */,
+				354C438015679F4A00269752 /* Credits.rtf in Resources */,
+				354C438615679F4A00269752 /* MainMenu.xib in Resources */,
+				354C455A1567F08100269752 /* appicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354C436715679F4A00269752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354C437C15679F4A00269752 /* main.m in Sources */,
+				354C438315679F4A00269752 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		354C437815679F4A00269752 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354C437915679F4A00269752 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		354C437E15679F4A00269752 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354C437F15679F4A00269752 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		354C438415679F4A00269752 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354C438515679F4A00269752 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354C438715679F4A00269752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		354C438815679F4A00269752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		354C438A15679F4A00269752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorswitcher/colorswitcher-Prefix.pch";
+				INFOPLIST_FILE = "colorswitcher/colorswitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		354C438B15679F4A00269752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorswitcher/colorswitcher-Prefix.pch";
+				INFOPLIST_FILE = "colorswitcher/colorswitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354C436515679F4A00269752 /* Build configuration list for PBXProject "colorswitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354C438715679F4A00269752 /* Debug */,
+				354C438815679F4A00269752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354C438915679F4A00269752 /* Build configuration list for PBXNativeTarget "colorswitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354C438A15679F4A00269752 /* Debug */,
+				354C438B15679F4A00269752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 354C436215679F4A00269752 /* Project object */;
+}
